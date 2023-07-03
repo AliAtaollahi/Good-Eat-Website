@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+
+  <title>Home</title>
+  <link rel="shortcut icon" href="icon.jpg" />
+  <link rel="stylesheet" type="text/css" href="homebasic.css">
+  <link rel="stylesheet" type="text/css" href="filters.css">
+</head>
+<html>
+  <body>
+    <form id="formExit" action="/loginpage" method="post"></form>
+    <form id="myShelvesForm" action="/myShelvesForm" method="post"></form>
+    <form id="filtersForm" action="/filtersPage" method="post"></form>
+    <div class="topnav">
+    <a  href="/homeUser">Home</a>
+    <a id="myShelves" href="myShelves" style="cursor: pointer;">My Shelves</a>
+    <a  href="addShelf" style="cursor: pointer;">Add Shelf</a>
+    <a class="active" id="filters_" style="cursor: pointer;"><img src="filters.png" style="height: 16px;"></a>
+    <a  href="/aboutUser" >About</a>
+    <a id="exit" style="cursor: pointer;"><img src="exit.png" style="height: 16px;"></a>
+    </div>
+    <form id="deleteForm" action="/deleteFilters" method="post"></form>
+    <div id="div_">
+      <form action="/filters" method="post">
+        <p style=" font-size: xx-large;">Add filters</p>
+        <input type="checkbox" id="changer1" name="time" value="true" />time filter &nbsp;
+        <input class="textbox" style="visibility: hidden;" id="time1" name="time1" type="text" placeholder="min time" /> &nbsp;&nbsp;
+        <input class="textbox" style="visibility: hidden;" id="time2" name="time2" type="text" placeholder="max time" /><br><br>
+        <input type="checkbox" id="changer2" name="rate" value="true" />rate filter &nbsp;
+        <input class="textbox" style="visibility: hidden;" id="rate1" name="rate1" type="text" placeholder="min rate" /> &nbsp;&nbsp;
+        <input class="textbox" style="visibility: hidden;" id="rate2" name="rate2" type="text" placeholder="max rate" /><br><br>
+        <input type="checkbox" id="changer3" name="tag" value="true" />tag filter &nbsp;
+        <input class="textbox" style="visibility: hidden;width: 40%;" id="tags" name="tags" type="text" placeholder="tags (place , to divide)" /><br><br>
+        <input type="checkbox" name="vegetarian" value="true"/>vegetarian mode &nbsp;
+        <br><br>
+        <button id="delete" type="button" >Delete all</button>
+        <p style="font-size: small;"><br></p>
+        <button class="button" type="submit">Add this filters</button>
+      </form>
+      <br>
+    </div>
+    <script type="text/javascript" src="homeUserbasic.js"></script>
+    <script type="text/javascript" src="filters.js"></script>
+    <script type="text/javascript" src="error.js"></script>
+  </body>
+
+</html>

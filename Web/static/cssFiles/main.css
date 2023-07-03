@@ -1,0 +1,25 @@
+div {
+  top: 400px;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  width: 40%;
+  height: 150px;
+  color: #fff;
+  background-color: #2c2c2c;
+}
+
+body {
+  text-align: center;
+  background-color: gold;
+}
+
+button {
+  font-family: inherit;
+  color: rebeccapurple;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: x-large;
+  background-color: inherit;
+  border: none;
+}

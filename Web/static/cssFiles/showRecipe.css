@@ -1,0 +1,81 @@
+#changer1 {
+	border: none;
+	background: none;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+#changer2 {
+	border: none;
+	background: none;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+#changer1Img {
+	cursor: pointer;
+	height: 45px;
+	width: 45px;
+}
+
+#changer2Img {
+	cursor: pointer;
+	height: 45px;
+	width: 45px;
+}
+
+#textBoxId {
+	outline: none;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 30px;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+#textBoxIdSubmit {
+	float: right;
+	border: none;
+	background: none;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+}
+
+#send1 {
+	margin-top: 3px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+}
+
+#rate {
+	outline: none;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 30px;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+#rateSubmit {
+	float: right;
+	border: none;
+	background: none;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+}
+
+#send2 {
+	margin-top: 3px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+
+  <title>Home</title>
+  <link rel="shortcut icon" href="icon.jpg" />
+  <link rel="stylesheet" type="text/css" href="homebasic.css">
+  <link rel="stylesheet" type="text/css" href="createRecipe.css">
+</head>
+<html>
+  <form id="form" action="createRecipePage" method="post"></form>
+  <form id="formExit" action="/loginpage" method="post"></form>
+  <body style="background-image: url('chef.jpg');">
+    <div class="topnav">
+      <a href="/homeChef">Home</a>
+      <a class="active" id="createRecipe" style="cursor: pointer;">Create New Recipe</a>
+      <a href="/about">About</a>
+      <a title="exit from app" onclick="exitfunc();" id="exit" style="cursor: pointer;"><img src="exit.png" style="height: 16px;"></a>
+    </div>
+    <div id="div_">
+      <form action="/createRecipe" method="post">
+        <p style=" font-size: xx-large;">Creat New Recipe</p>
+        <input class="textbox" name="title" type="text" placeholder="Title" />
+        <input class="textbox" style="margin-left: 50px; width: 50%;" name="ingredients" type="text"
+        placeholder="Ingredients" /> <span style="color: red;">*place <strong>,</strong> to divide</span>
+        <br><br>
+        <input class="textbox" name="minutes_to_ready" type="text" placeholder="Minutes_to_ready" />
+        <input class="textbox" style="margin-left: 50px; width: 50%;" name="tags" type="text" placeholder="Tags" />
+        <span style="color: red;">*place <strong>,</strong> to divide</span>
+        <p style="font-size:large;">Vegetarian state</p>
+        <input class="radiobutton" type="radio" name="type_" value="Yes"> Yes
+        <input class="radiobutton" type="radio" name="type_" value="No" style="margin-left: 10px;"> No
+        <br><br>
+        <label for="img">image (please put image in images file): </label>
+        <input type="file" id="img" name="img" accept="image/*">
+        <p style="font-size: small;"><br></p>
+        <button class="button" type="submit">Create</button>
+      </form>
+      <br>
+    </div>
+    <script type="text/javascript" src="homebasic.js"></script>
+    <script type="text/javascript" src="error.js"></script>
+  </body>
+  
+  </html>

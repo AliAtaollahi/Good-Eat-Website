@@ -1,0 +1,57 @@
+div {
+  background-color: mediumspringgreen;
+  padding: 1%;
+  max-width: 320px;
+  top: 300px;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  width: 40%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.textbox {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: initial;
+  display: initial;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 95%;
+}
+.radiobutton{
+  display: initial;
+  margin-bottom: 10px;
+}
+#button {
+  border: none;
+  cursor: pointer;
+  margin-left:58%;
+  font-size: medium;
+  display: initial;
+  width: 128px;
+  padding: 7px;
+  color: #fff;
+  background-color: darkgreen;
+}
+#see {
+  cursor: pointer;
+  margin-right: 5px;
+  background-image: url('unseen.png');
+  background-color: inherit;
+  float: right;
+  background-size: cover;
+  border: none;
+  height: 15px;
+  width: 22px;
+}

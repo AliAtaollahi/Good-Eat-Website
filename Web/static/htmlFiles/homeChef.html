@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link rel="shortcut icon" href="icon.jpg" />
+  <link rel="stylesheet" type="text/css" href="homebasic.css">
+  <link rel="stylesheet" type="text/css" href="home.css">
+
+  <head>
+    <html>
+    <form id="formExit" action="/loginpage" method="post"></form>
+    <form id="form" action="createRecipePage" method="post"></form>
+
+  <body style="background-image: url('chef.jpg');">
+    <div class=" topnav ">
+      <a class="active" href="/homeChef">Home</a>
+      <a id="createRecipe" style="cursor: pointer;">Create New Recipe</a>
+      <a href="/about"> About</a>
+        <a id="exit" style="cursor: pointer;"><img src=" exit.png " style=" height : 16px;"></a>
+    </div>
+    <div id="div_" style="cursor:auto; font-size: x-large; margin-bottom: 100px;">
+      <img title="create new recipe" onclick="add()" id="addImg" src="add.png">
+      <script>function add() { window.location.href = "/createRecipe"; }</script>
+    </div>
+    <div style="position: relative;"><br><br></div>
+    <script type="text/javascript" src="content.js"></script>
+    <script type="text/javascript" src="homebasic.js"></script>
+  </body>
+
+  </html>;

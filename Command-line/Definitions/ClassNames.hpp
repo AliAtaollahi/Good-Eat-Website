@@ -1,0 +1,25 @@
+#ifndef _ClassNames_HPP_
+#define _ClassNames_HPP_
+class ControlRoom;
+class Interface;
+class Member;
+class Recipe;
+class Chef;
+class User;
+class Shelve;
+class Rating;
+class Error;
+class BadRequest;
+class NotFound;
+class Empty;
+class PermissionDenied;
+class Message;
+class Filter;
+class TagFilter;
+class TimeFilter;
+class RateFilter;
+class VegeterianFilter;
+class Ingredient;
+class Supplier;
+class Offer;
+#endif

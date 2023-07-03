@@ -1,0 +1,28 @@
+#div_ {
+  cursor:auto;
+  background-color: white;
+  padding: 1%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 10px;
+  width: 80%;
+}
+
+#addImg {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.delete {
+  float: right;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}

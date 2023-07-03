@@ -1,0 +1,67 @@
+
+
+body {
+  margin: 0;
+  font-family:Garamond, serif;
+  background-image: url("food.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.textbox {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: initial;
+  display: initial;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 95%;
+}
+.radiobutton{
+  display: initial;
+  margin-bottom: 10px;
+}
+.button {
+  border: none;
+  font-size: medium;
+  display: initial;
+  width: 128px;
+  padding: 7px;
+  color: #fff;
+  background-color: darkgreen;
+}
+
+.topnav {
+  opacity: 0.8;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 20px;
+  margin-left: 7%;
+  width: 86%;
+  transition: top 0.3s;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.topnav a.active:hover{
+  background-color: #ddd;
+  color: black;
+}
